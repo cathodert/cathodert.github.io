@@ -82,8 +82,11 @@ h2 {
 /* Horizontal line */
 .hr {
     width: 100%;
-    height: 5px;
-    color: var(--brand)
+    height: 10px;
+    width: 100%;
+    color: var(--brand);
+    margin-top: 10px;
+
 }
 
  /* btn-info */
@@ -104,9 +107,9 @@ h2 {
 
 /* header */
 .header {
-    height: 64px;
-    display: flex;
-    align-items: flex-end;
+    height: 50px;
+    margin-top: 50px;
+   
 
 } 
 
@@ -123,26 +126,59 @@ h2 {
    margin-bottom: 24px;
    color: var(--white);
  }
- 
-/* Flex Box Code Starts Here */
-.container {
+
+/* in-page nav */
+.box-nav {
+    padding: 20px;
+    text-align:center;
+    min-height: 80px;
+  }
+
+.in-page-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+ /* h2 container */
+
+.container-header {
+    background-color: var(--base-dark);
+    color: var(--brand);
+    padding: 10px 20px 10px;
+    margin-top: 40px;
+  }
+  
+  /* h3 container */
+  
+  .container-subheading {
+    background-color: var(--base-dark);
+    color: var(--brand);
+    padding: 1px 20px 1px;
+  }
+  
+  /* projects */
+  .container {
     background-color: var(--base-dark);
     color: var(--base-dark);
-    /*  This applies the space between the outside of the container and the outside of the box, so the boxes don't touch the outside of the container.  */
-    padding: 20px;
+    padding: 1px 20px 30px 20px;
     display: flex;
-    /*  Because we are developing for mobile first, we want to start with the view for the smallest screen  */
     flex-direction: column;
-    /*  The 'gap' property applies a specified amount of space between flex items on both left/right and top/bottom.  */
     gap: 20px;
   }
   .box {
-    background-color: var(--base-light);
+    background-color:var(--base-light);
     padding: 20px;
     text-align:center;
     min-height: 80px;
   }
   
+  /* code box */
+  .code-box {
+  background-color: var(--brand); 
+  color: var(--base-dark);
+  width: 25%;
+  gap: 20px;
+  }
+   
   /* The following styles will override the default styles (if they exist) on screens wider than 400px. */
   @media only screen and (min-width: 700px) {
     .container {
@@ -158,5 +194,47 @@ h2 {
     }
   }
   
-  } 
+  /* .contact-form*/
+.contact-container{
+    background-color: var(--brand);
+     color: var(--base-dark;}
+   
+   .contact-form {
+     padding: 48px 16px;
+     border-radius: 10px;
+     margin: 5px 10px;
+   }
+   
+   .contact-form input,
+   .contact-form select {
+     display: block;
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 16px;
+   }
+   
+   .contact-form textarea {
+     display: block;
+     width: 100%;
+     padding: 8px;
+   }
+   
+   .contact-form label {
+     display: block;
+     width: 100%;
+   }
+   
+   .contact-form h2 {
+     color: var(--base-dark);
+     margin-bottom: 16px;
+   }
+   
+   .contact-form input[type="submit"] {
+     background-color: var(--action);
+     border: 0;
+     margin-top: 8px;
+     cursor: pointer;
+   }
+   
+   
   
