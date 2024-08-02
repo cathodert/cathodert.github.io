@@ -74,18 +74,35 @@
 
 /* Components */
 
+
 /* Fonts */
 h2 {
     color: var(--brand);
 }
 
+/* Header content */
+
+/* header */
+.header {
+   height: 100px;
+   margin: auto;
+   padding: 10px;
+
+/* logo */
+.logo {
+    height: 100px;
+    position:absolute;
+    left: 0px;
+    
+}
+
+
 /* Horizontal line */
 .hr {
     width: 100%;
     height: 10px;
-    width: 100%;
     color: var(--brand);
-    margin-top: 10px;
+    margin-top: 1px;
 
 }
 
@@ -98,6 +115,8 @@ h2 {
     border-radius: 4px;
     background-color: var(--action);
     transition: all 0.3s ease;
+    position: absolute;
+    right: 20px;
   }
   
   .btn-info:hover {
@@ -105,10 +124,8 @@ h2 {
     transform: translateY(-4px);
   }
 
-/* header */
-.header {
-    height: 50px;
-    margin-top: 50px;
+
+   
    
 
 } 
@@ -116,14 +133,13 @@ h2 {
  /* .hero */
  .hero {
    background-color: var(--brand);
-   padding: 56px 16px;
-   border-radius: 10px;
-   margin: 5px 10px;
+   padding: 56px 56px;
+   margin: 42px 56px;
  }
  
  .hero p {
    font-size: 2rem;
-   margin-bottom: 24px;
+    margin-bottom: 24px;
    color: var(--white);
  }
 
@@ -143,27 +159,60 @@ h2 {
 .container-header {
     background-color: var(--base-dark);
     color: var(--brand);
-    padding: 10px 20px 10px;
-    margin-top: 40px;
+    margin: 42px 56px 0px;
+    padding: 20px 20px 10px;
   }
   
   /* h3 container */
   
-  .container-subheading {
+  .container-subheading-1 {
     background-color: var(--base-dark);
     color: var(--brand);
-    padding: 1px 20px 1px;
+    padding: 20px 20px 1px;
+    margin: 0px 56px 0px;
   }
+
+  .container-subheading-2 {
+    background-color: var(--base-dark);
+    color: var(--brand);
+    padding: 20px 20px 1px;
+    margin: 0px 56px 0px;
+  }
+
   
   /* projects */
-  .container {
+  .container-1 {
     background-color: var(--base-dark);
     color: var(--base-dark);
-    padding: 1px 20px 30px 20px;
+    padding: 10px 20px 40px;
+    margin: 0px 56px 0px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     gap: 20px;
-  }
+      }
+
+      .container-2 {
+        background-color: var(--base-dark);
+        color: var(--base-dark);
+        padding: 10px 20px 40px;
+        margin: 0px 56px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+          }
+          
+          .container-3 {
+            background-color: var(--base-dark);
+            color: var(--base-dark);
+            padding: 10px 20px 40px;
+            margin: 0px 56px 112px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 20px;
+              }
   .box {
     background-color:var(--base-light);
     padding: 20px;
@@ -181,12 +230,27 @@ h2 {
    
   /* The following styles will override the default styles (if they exist) on screens wider than 400px. */
   @media only screen and (min-width: 700px) {
-    .container {
+    .container-1 {
       /*   This flips the direction of the stacking from top-bottom to left-right   */
      flex-direction: row;
       /*  If the content is too wide to fit on the line, make it wrap to a new line.   */
       flex-wrap: wrap;
     }
+    .container-2 {
+        /*   This flips the direction of the stacking from top-bottom to left-right   */
+       flex-direction: row;
+        /*  If the content is too wide to fit on the line, make it wrap to a new line.   */
+        flex-wrap: wrap;
+      }
+
+      .container-3 {
+        /*   This flips the direction of the stacking from top-bottom to left-right   */
+       flex-direction: row;
+        /*  If the content is too wide to fit on the line, make it wrap to a new line.   */
+        flex-wrap: wrap;
+      }
+
+
     .box {
       /*   Here we are using the 'calc' function to work out the exact width of the boxes so that they fill the available space. We want them to be half the width of the container, but we also need to subtract the padding on both left and right (2 x 20px) and the gap divided by the number of containers (20px / 2) */
       width: calc(50% - (20px * 2) - (20px / 2));
@@ -195,14 +259,17 @@ h2 {
   }
   
   /* .contact-form*/
-.contact-container{
+.contact-container {
     background-color: var(--brand);
-     color: var(--base-dark;}
+     color: var(--base-dark);
+     padding: 0px 20px 10px;
+     margin-top: 56px;
+    }
    
    .contact-form {
-     padding: 48px 16px;
-     border-radius: 10px;
-     margin: 5px 10px;
+    background-color: var(--base-light); 
+    padding: 20px 16px;
+    margin: 56px 56px 112px;
    }
    
    .contact-form input,
@@ -231,8 +298,10 @@ h2 {
    
    .contact-form input[type="submit"] {
      background-color: var(--action);
+     color: var(--base-light);
      border: 0;
      margin-top: 8px;
+     width: 25%;
      cursor: pointer;
    }
    
