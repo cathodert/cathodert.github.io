@@ -2,308 +2,390 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-   --brand: #55d6be;
-   --action: #593959;
-   --white: #ffffff;
-   --base-light: #eef3fb;
-   --base-dark: #162350;
-   --black: #111111;
- }
+  --brand: #55d6be;
+  --action: #593959;
+  --white: #ffffff;
+  --base-light: #eef3fb;
+  --base-dark: #162350;
+  --black: #111111;
+}
 
-  /* CSS Reset */
- 
-  html {
-    box-sizing: border-box;
-    font-size: 16px;
-    font-family: "Montserrat", serif;
-    color: var(--black);
-    scroll-behavior: smooth;
-  }
- 
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
- 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Fira sans", sans-serif;
-  }
- 
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ol,
-  ul {
-    margin: 0;
-    padding: 0;
-  }
+/* CSS Reset */
 
- 
-  ol,
-  ul {
-    list-style: none;
-  }
- 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
- 
-  input,
-  button,
-  textarea,
-  select {
-    font: inherit;
-  }
- /* Utilities */
- 
- .display-none {
-    display: none;
-  }
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Montserrat", serif;
+  color: var(--black);
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira sans", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Utilities */
+
+.display-none {
+  display: none;
+}
 
 /* Components */
 
 
 /* Fonts */
 h2 {
-    color: var(--brand);
+  color: var(--brand);
 }
 
-/* Header content */
+/* Header content - This is all the elements in the header */
 
-/* header */
-.header {
-   height: 100px;
-   margin: auto;
-   padding: 10px;
+header { 
+  border-bottom: 1px solid var(--brand);
+  position: relative;
+  min-height: 80px;
+  margin: auto;
+  padding: 10px;
+}
 
-/* logo */
 .logo {
-    height: 100px;
-    position:absolute;
-    left: 0px;
-    
+  height: 60px;
+  position: absolute;
+  left: 0px;
 }
 
-
-/* Horizontal line */
-.hr {
-    width: 100%;
-    height: 10px;
-    color: var(--brand);
-    margin-top: 1px;
-
+.header-content {
+color: var(--action);
+font-size: smaller;
+text-decoration: none;
+position: absolute;
+bottom: 10px;
+right: 20px;
 }
 
- /* btn-info */
- .btn-info {
-    display: inline
-    padding: 6px 6px;
-    text-decoration: none;
-    color: var(--white);
-    border-radius: 4px;
-    background-color: var(--action);
-    transition: all 0.3s ease;
-    position: absolute;
-    right: 20px;
-  }
-  
-  .btn-info:hover {
-    box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.2);
-    transform: translateY(-4px);
-  }
+/* Hero content */
+.hero {
+  background-color: var(--brand);
+  padding: 28px 28px;
+  margin: 28px 0px 28px;
+}
 
+.hero h1 {
+  color: var(--base-dark);
+}
 
-   
-   
+.hero p {
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: var(--white);
+}
 
-} 
-
- /* .hero */
- .hero {
-   background-color: var(--brand);
-   padding: 56px 56px;
-   margin: 42px 56px;
- }
- 
- .hero p {
-   font-size: 2rem;
-    margin-bottom: 24px;
-   color: var(--white);
- }
-
-/* in-page nav */
+/* in-page nav 
 .box-nav {
-    padding: 20px;
-    text-align:center;
-    min-height: 80px;
-  }
+  padding: 20px;
+  text-align: center;
+  min-height: 20px;
 
+}*/
+
+/* In-page navigation on homepage */
 .in-page-nav {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
- /* h2 container */
+
+
+/* Buttons */
+
+/* Nav button style - includes header menu and internal nav */
+.button1, .button2 {
+  display: inline;
+  text-decoration: none;
+  padding: 14px 7px;
+  background-color: var(--white);}
+
+  /* Internal nav menu buttons */
+  .button1 {
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 0px;
+  right: 20px; 
+}
+
+/* Navigation menu button */
+.button2 {
+  color: var(--action);
+  border: solid var(--action);
+  transition: all 0.3s ease;
+}
+
+/* View all projects button */
+.btn-info {
+  display: inline;
+  text-decoration: none;
+  border: solid var(--base-light);
+  padding: 14px 7px;
+  width: 50%;
+  text-align: center;
+  position: bottom;
+  align-items: right;
+  background-color: var(--action);
+  color: var(--base-light);
+  transition: all 0.3s ease;
+}
+
+/* Button hover features */
+.button1:hover, .button2:hover {
+  background-color: var(--action);
+  color: var(--white);
+}
+
+.btn-info:hover {
+  background-color: var(--base-light);
+  color: var(--action);
+}
+
+/* articles content - boxes with dark blue background */
+
+
+/* h2 container */
+.container-header {
+  background-color: var(--base-dark);
+  color: var(--brand);
+  margin-top: 56px;
+  padding: 20px 20px 10px;
+}
+
+/* h3 container */
+
+.container-subheading-1, .container-subheading-2 {
+  background-color: var(--base-dark);
+  color: var(--brand);
+  padding: 20px 20px 1px;
+}
+
+.container-subheading-2 {
+  margin-top: 56px;
+}
+
+.container-1, .container-2, .container-3, .container-4 {
+  background-color: var(--base-dark);
+   padding: 10px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+/* projects - boxes with light blue background */
+.box, .box2, .box3 {
+  background-color: var(--base-light);
+  padding: 20px;
+  text-align: center;
+}
+
+.box4 {
+  background-color: var(--base-light);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+
+
+/* code box */
+.code-box {
+  background-color: var(--brand);
+  color: var(--white);
+  font-family: "Fira sans", sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  margin: 10px 10px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+}
+
+/* social media icons */
+.socials-icon-profile {
+  height: 21px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.socials-icon {
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+/* Footer */
+.socials-footer {
+  text-align: center;
+}
+
+/* .contact-form*/
+.contact-container {
+  background-color: var(--brand);
+  color: var(--base-dark);
+  padding: 0px 20px 10px;
+  margin-top: 56px;
+}
+
+.contact-form {
+  background-color: var(--base-light);
+  padding: 20px 16px;
+  margin:  56px 0px 88px;
+}
+
+.contact-form input,
+.contact-form select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
+
+.contact-form label {
+  display: block;
+  width: 100%;
+}
+
+.contact-form h2 {
+  color: var(--base-dark);
+  margin-bottom: 16px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: var(--action);
+  color: var(--base-light);
+  border: 0;
+  margin-top: 8px;
+  width: 25%;
+  cursor: pointer;
+}
+
+/* The following styles will override the default styles (if they exist) on screens wider than 400px. */
+@media only screen and (min-width: 700px) {
+
+.hero {
+  margin: 56px 20px 56px;
+}
 
 .container-header {
-    background-color: var(--base-dark);
-    color: var(--brand);
-    margin: 42px 56px 0px;
-    padding: 20px 20px 10px;
-  }
-  
-  /* h3 container */
-  
-  .container-subheading-1 {
-    background-color: var(--base-dark);
-    color: var(--brand);
-    padding: 20px 20px 1px;
-    margin: 0px 56px 0px;
+  margin: 56px 20px 0px;  
+}
+
+  .container-subheading-1{
+    margin: 0px 20px 0px;  
   }
 
   .container-subheading-2 {
-    background-color: var(--base-dark);
-    color: var(--brand);
-    padding: 20px 20px 1px;
-    margin: 0px 56px 0px;
+    margin: 56px 20px 0px;
   }
 
-  
-  /* projects */
-  .container-1 {
-    background-color: var(--base-dark);
-    color: var(--base-dark);
-    padding: 10px 20px 40px;
-    margin: 0px 56px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 20px;
-      }
+  .container-1,
+  .container-2,
+  .container-3 {
+     margin: 0px 20px 0px;
+  }
 
-      .container-2 {
-        background-color: var(--base-dark);
-        color: var(--base-dark);
-        padding: 10px 20px 40px;
-        margin: 0px 56px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        gap: 20px;
-          }
-          
-          .container-3 {
-            background-color: var(--base-dark);
-            color: var(--base-dark);
-            padding: 10px 20px 40px;
-            margin: 0px 56px 112px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            gap: 20px;
-              }
+
+}
+
+/* The following styles will override the default styles (if they exist) on screens wider than 400px. */
+@media only screen and (min-width: 900px) {
+
+  .hero {
+    margin: 56px 80px 56px;
+  }
+  
+  .container-header {
+    margin: 56px 80px 0px;  
+  }
+  
+    .container-subheading-1{
+      margin: 0px 80px 0px;  
+    }
+  
+    .container-subheading-2 {
+      margin: 56px 80px 0px;
+    }
+  
+    .container-1,
+    .container-2,
+    .container-3 {
+       margin: 0px 80px 0px;
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+  
+
   .box {
-    background-color:var(--base-light);
-    padding: 20px;
-    text-align:center;
-    min-height: 80px;
+    /*   Here we are using the 'calc' function to work out the exact width of the boxes so that they fill the available space. We want them to be half the width of the container, but we also need to subtract the padding on both left and right (2 x 20px) and the gap divided by the number of containers (20px / 2) */
+    width: calc(50% - (20px * 2) - (20px / 2));
+    background-color: var(--base-light);}
   }
-  
-  /* code box */
-  .code-box {
-  background-color: var(--brand); 
-  color: var(--base-dark);
-  width: 25%;
-  gap: 20px;
-  }
-   
-  /* The following styles will override the default styles (if they exist) on screens wider than 400px. */
-  @media only screen and (min-width: 700px) {
-    .container-1 {
-      /*   This flips the direction of the stacking from top-bottom to left-right   */
-     flex-direction: row;
-      /*  If the content is too wide to fit on the line, make it wrap to a new line.   */
-      flex-wrap: wrap;
-    }
-    .container-2 {
-        /*   This flips the direction of the stacking from top-bottom to left-right   */
-       flex-direction: row;
-        /*  If the content is too wide to fit on the line, make it wrap to a new line.   */
-        flex-wrap: wrap;
-      }
-
-      .container-3 {
-        /*   This flips the direction of the stacking from top-bottom to left-right   */
-       flex-direction: row;
-        /*  If the content is too wide to fit on the line, make it wrap to a new line.   */
-        flex-wrap: wrap;
-      }
-
-
-    .box {
-      /*   Here we are using the 'calc' function to work out the exact width of the boxes so that they fill the available space. We want them to be half the width of the container, but we also need to subtract the padding on both left and right (2 x 20px) and the gap divided by the number of containers (20px / 2) */
-      width: calc(50% - (20px * 2) - (20px / 2));
-      background-color: #eef3fb;
-    }
-  }
-  
-  /* .contact-form*/
-.contact-container {
-    background-color: var(--brand);
-     color: var(--base-dark);
-     padding: 0px 20px 10px;
-     margin-top: 56px;
-    }
-   
-   .contact-form {
-    background-color: var(--base-light); 
-    padding: 20px 16px;
+  .contact-form {
     margin: 56px 56px 112px;
-   }
-   
-   .contact-form input,
-   .contact-form select {
-     display: block;
-     width: 100%;
-     padding: 8px;
-     margin-bottom: 16px;
-   }
-   
-   .contact-form textarea {
-     display: block;
-     width: 100%;
-     padding: 8px;
-   }
-   
-   .contact-form label {
-     display: block;
-     width: 100%;
-   }
-   
-   .contact-form h2 {
-     color: var(--base-dark);
-     margin-bottom: 16px;
-   }
-   
-   .contact-form input[type="submit"] {
-     background-color: var(--action);
-     color: var(--base-light);
-     border: 0;
-     margin-top: 8px;
-     width: 25%;
-     cursor: pointer;
-   }
-   
-   
-  
+  }
+
+  .btn-info {
+    width: 25%;
+  }
+
