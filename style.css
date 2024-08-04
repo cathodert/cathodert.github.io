@@ -111,10 +111,14 @@ right: 20px;
   background-color: var(--brand);
   padding: 28px 28px;
   margin: 28px 0px 28px;
+  line-height: 28px;
+  text-align: justify;
+  font-family: "fira sans";
 }
 
 .hero h1 {
   color: var(--base-dark);
+  margin-bottom: 28px;
 }
 
 .hero p {
@@ -226,7 +230,9 @@ right: 20px;
 .box, .box2, .box3 {
   background-color: var(--base-light);
   padding: 20px;
-  text-align: center;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .box4 {
@@ -271,20 +277,35 @@ right: 20px;
 /* Footer */
 .socials-footer {
   text-align: center;
+
+}
+
+.socials-link {
+margin-left: 20px;
+margin-right: 20px;
+  text-decoration: none;
+  color: var(--action);
+}
+
+.copyright {
+  text-align: center;
 }
 
 /* .contact-form*/
 .contact-container {
-  background-color: var(--brand);
+  /*background-color: var(--brand);
   color: var(--base-dark);
-  padding: 0px 20px 10px;
+  padding: 0px 20px 10px;*/
   margin-top: 56px;
 }
 
 .contact-form {
   background-color: var(--base-light);
-  padding: 20px 16px;
-  margin:  56px 0px 88px;
+  width: auto;
+  border: solid 2px var(--brand);
+  color: var(--base-dark);
+  padding: 10px 16px;
+  gap: 28px;
 }
 
 .contact-form input,
@@ -345,6 +366,9 @@ right: 20px;
      margin: 0px 20px 0px;
   }
 
+.contact-form {
+  margin:  56px 0px 88px;
+}
 
 }
 
