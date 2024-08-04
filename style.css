@@ -15,7 +15,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: "Montserrat", serif;
+  font-family: "Fira sans", sans-serif;
   color: var(--black);
   scroll-behavior: smooth;
 }
@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Fira sans", sans-serif;
+  font-family:"Montserrat", serif;
 }
 
 body,
@@ -230,7 +230,7 @@ right: 20px;
 .box, .box2, .box3 {
   background-color: var(--base-light);
   padding: 20px;
-  text-align: justify;
+  text-align: left;
   font-size: 20px;
   line-height: 28px;
 }
