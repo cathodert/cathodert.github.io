@@ -47,38 +47,55 @@ Header, section, nav and footer have been used in the site.
 A late addition was the change in colour for the navigation links - going from a white background to a purple background when the mouse hovered over the box. The same style was applied to both the site nav and in-page navs, but stylistically they look slightly different as i-page nav has a border.
 ​
 ### Screenshots
-#### Mobile view
-! My Portfolio home - Mobile view 1 ./screenshots/My-Portfolio_mobile1.png
-! My Portfolio home - Mobile view 2 ./screenshots/My-Portfolio_mobile2.png
-! My Portfolio home - Mobile view 3 ./screenshots/My-Portfolio_mobile3.png
-! My Portfolio home - Mobile view 4 ./screenshots/My-Portfolio_mobile4.png
-! My Portfolio home - Mobile view 5 ./screenshots/My-Portfolio_mobile5.png
+#### My portfolio mobile view 1
+![My Portfolio Mobile view 1](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_mobile1.png)
+#### My portfolio mobile view 2
+![My Portfolio Mobile view 2](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_mobile2.png)
+#### My portfolio mobile view 3
+![My Portfolio Mobile view 3](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_mobile3.png)]
+#### My portfolio mobile view 4
+![My Portfolio Mobile view 4](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_mobile4.png)
+#### My portfolio mobile view 5
+![My Portfolio Mobile view 5](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_mobile5.png)
+#### Projects mobile view 1
+![Projects mobile view 1](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/Projects_Mobile1.png)
+#### Projects mobile view 2
+![Projects mobile view 2](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/Projects_Mobile2.png)
+#### Projects mobile view 3
+![Projects mobile view 3](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/Projects_Mobile3.png)
+#### Projects mobile view 4
+![Projects mobile view 4](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/Projects_Mobile4.png)
 
-! My Projects - Mobile view 1 ./screenshots/Projects_Mobile1.png
-! My Projects - Mobile view 2 ./screenshots/Projects_Mobile2.png
-! My Projects - Mobile view 3 ./screenshots/Projects_Mobile3.png
-! My Projects - Mobile view 4 ./screenshots/Projects_Mobile4.png
+#### My Portfolio tablet view 1
+![My Portfolio tablet view 1](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_tablet1.png)
+#### My Portfolio tablet view 2
+![My Portfolio tablet view 2](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_tablet2.png)
+#### My Portfolio tablet view 3
+![My Portfolio Tablet view 3](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_tablet3.png)
 
-#### Tablet view
-! My Portfolio home - Tablet view 1 ./screenshots/My-Portfolio_tablet1.png
-! My Portfolio home - Tablet view 2 ./screenshots/My-Portfolio_tablet1.png
-! My Portfolio home - Tablet view 3 ./screenshots/My-Portfolio_tablet1.png
+#### Projects tablet view 1
+![Projects tablet view 1](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/Projects_Tablet1.png)
+#### Projects tablet view 2
+![Projects tablet view 2](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/Projects_Tablet2.png)
 
-! My Projects - Tablet view 1 ./screenshots/Projects_Tablet1.png
-! My Projects - Tablet view 2 ./screenshots/Projects_Tablet1.png
+#### Desktop view 1
+![My Portfolio desktop view 1](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_desktop1.png)
+#### Desktop view 2
+![My Portfolio desktop view 2](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_desktop2.png)
 
-#### Desktop view
-! My Portfolio home - Desktop view 1 ./screenshots/Projects_Desktop1.png
-! My Portfolio home - Desktop view 2 ./screenshots/Projects_Desktop2.png
+#### Projects Desktop view 1
+![Projects desktop view 1](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/Projects_Desktop1.png)
+#### Projects Desktop view 2
+![Projects desktop view 2](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/Projects_Desktop2.png)
 
 
-! My Projects - Desktop view 1 ./screenshots/My-Portfolio_Desktop1.png
-! My Projects - Desktop view 2 ./screenshots/My-Portfolio_Desktop2.png
-
-#### Hover
-! Navigation menu - standard ./screenshots/NavMenu_standard.jpeg
-! Navigation menu - hover ./screenshots/NavMenu_nover.jpeg
-! Inpage navitation - hover ./screenshots/InpageNav_hover.jpeg
-! View all projects - standard ./screenshots/ViewAllProjects_standard.jpeg
-! View all projects - hover  ./screenshots/ViewAllProjects_hover.jpeg
-
+#### Navigation menu standard
+![Navigation menu standard](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/NavMenu_standard.jpeg)
+#### Navigation menu hover
+![Navigation menu hover](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/NavMenu_hover.jpeg)
+#### Inpage navigation standard and hover
+![Navigation menu standard and hover](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/InpageNav_hover.jpeg)
+#### View all projects standard
+![View all projects standard](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/ViewAllProjects_standard.jpeg)
+#### View all projects hover
+![View all projects hover](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/ViewAllProjects_hover.jpeg)
