@@ -47,6 +47,9 @@ Header, section, nav and footer have been used in the site.
 A late addition was the change in colour for the navigation links - going from a white background to a purple background when the mouse hovered over the box. The same style was applied to both the site nav and in-page navs, but stylistically they look slightly different as i-page nav has a border.
 ​
 ### Screenshots
+#### My original wireframe
+![My original wireframe](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/Wireframe_Figma.png)
+
 #### My portfolio mobile view 1
 ![My Portfolio Mobile view 1](https://github.com/cathodert/cathodert.github.io/blob/main/screenshots/My-Portfolio_mobile1.png)
 #### My portfolio mobile view 2
