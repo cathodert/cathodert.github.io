@@ -48,37 +48,37 @@ A late addition was the change in colour for the navigation links - going from a
 ​
 ### Screenshots
 #### Mobile view
-! My Portfolio home - Mobile view 1 ./screenshots/My-Portfolio_mobile1.png
-! My Portfolio home - Mobile view 2 ./screenshots/My-Portfolio_mobile2.png
-! My Portfolio home - Mobile view 3 ./screenshots/My-Portfolio_mobile3.png
-! My Portfolio home - Mobile view 4 ./screenshots/My-Portfolio_mobile4.png
-! My Portfolio home - Mobile view 5 ./screenshots/My-Portfolio_mobile5.png
+! My Portfolio home - Mobile view 1 [./screenshots/My-Portfolio_mobile1.png]
+! My Portfolio home - Mobile view 2 [./screenshots/My-Portfolio_mobile2.png]
+! My Portfolio home - Mobile view 3 [./screenshots/My-Portfolio_mobile3.png]
+! My Portfolio home - Mobile view 4 [.screenshots/My-Portfolio_mobile4.png]
+! My Portfolio home - Mobile view 5 [./screenshots/My-Portfolio_mobile5.png]
 
-! My Projects - Mobile view 1 ./screenshots/Projects_Mobile1.png
-! My Projects - Mobile view 2 ./screenshots/Projects_Mobile2.png
-! My Projects - Mobile view 3 ./screenshots/Projects_Mobile3.png
-! My Projects - Mobile view 4 ./screenshots/Projects_Mobile4.png
+! My Projects - Mobile view 1 [./screenshots/Projects_Mobile1.png]
+! My Projects - Mobile view 2 [./screenshots/Projects_Mobile2.png]
+! My Projects - Mobile view 3 [./screenshots/Projects_Mobile3.png]
+! My Projects - Mobile view 4 [./screenshots/Projects_Mobile4.png]
 
 #### Tablet view
-! My Portfolio home - Tablet view 1 ./screenshots/My-Portfolio_tablet1.png
-! My Portfolio home - Tablet view 2 ./screenshots/My-Portfolio_tablet1.png
-! My Portfolio home - Tablet view 3 ./screenshots/My-Portfolio_tablet1.png
+! My Portfolio home - Tablet view 1 [./screenshots/My-Portfolio_tablet1.png]
+! My Portfolio home - Tablet view 2 [./screenshots/My-Portfolio_tablet1.png]
+! My Portfolio home - Tablet view 3 [./screenshots/My-Portfolio_tablet1.png]
 
-! My Projects - Tablet view 1 ./screenshots/Projects_Tablet1.png
-! My Projects - Tablet view 2 ./screenshots/Projects_Tablet1.png
+! My Projects - Tablet view 1 [./screenshots/Projects_Tablet1.png]
+! My Projects - Tablet view 2 [./screenshots/Projects_Tablet1.png]
 
 #### Desktop view
-! My Portfolio home - Desktop view 1 ./screenshots/Projects_Desktop1.png
-! My Portfolio home - Desktop view 2 ./screenshots/Projects_Desktop2.png
+! My Portfolio home - Desktop view 1 [./screenshots/Projects_Desktop1.png]
+! My Portfolio home - Desktop view 2 [./screenshots/Projects_Desktop2.png]
 
 
-! My Projects - Desktop view 1 ./screenshots/My-Portfolio_Desktop1.png
-! My Projects - Desktop view 2 ./screenshots/My-Portfolio_Desktop2.png
+! My Projects - Desktop view 1 [./screenshots/My-Portfolio_Desktop1.png]
+! My Projects - Desktop view 2 [./screenshots/My-Portfolio_Desktop2.png]
 
 #### Hover
-! Navigation menu - standard ./screenshots/NavMenu_standard.jpeg
-! Navigation menu - hover ./screenshots/NavMenu_nover.jpeg
-! Inpage navitation - hover ./screenshots/InpageNav_hover.jpeg
-! View all projects - standard ./screenshots/ViewAllProjects_standard.jpeg
-! View all projects - hover  ./screenshots/ViewAllProjects_hover.jpeg
+Navigation menu - standard [./screenshots/NavMenu_standard.jpeg]
+! Navigation menu - hover [./screenshots/NavMenu_nover.jpeg]
+! Inpage navitation - hover [./screenshots/InpageNav_hover.jpeg]
+! View all projects - standard [./screenshots/ViewAllProjects_standard.jpeg]
+! View all projects - hover  [./screenshots/ViewAllProjects_hover.jpeg]
 
